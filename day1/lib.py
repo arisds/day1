@@ -1,6 +1,3 @@
-def try_me(name):
-    return f"Hello, you are my friend dear {name}, Keir is not "
-
-if __name__ == "__main__":
-    name = "Dan"
-    print(try_me(name))
+def try_me():
+    name = input("What's your name?")
+    return f"Hello {name}, you are my friend but Keir is not "
